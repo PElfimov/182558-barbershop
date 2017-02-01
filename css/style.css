@@ -1,7 +1,7 @@
 html,
 body {
 
-	min-width: 1200px;
+	
 	margin: 0;
 	padding: 0;
 	 background: #ffffff url("../img/barbershop-shop.jpg") no-repeat 50% 0px;
@@ -15,5 +15,48 @@ body {
 	
 
 }
+.text {
+	margin:0;
+	
+}
+
+.text-hidden {
+	display: none;
+	
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-header-layout {
+  display: flex;
+  justify-content: space-between;
+}
 
 
+.main-navigation {
+  width: 780px;
+	display: flex;
+	justify-content: space-around;
+	align-content:flex-end;
+
+  /* Только для оформления сетки */
+  min-height: 72px;
+}
+
+.main-navigation ul {
+	display: flex;
+	width:540px;
+	justify-content: space-around;
+	align-content:center;
+}
+
+.user-block {
+  width: 140px;
+
+  /* Только для оформления сетки */
+  min-height: 70px;
+}
