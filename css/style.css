@@ -1,0 +1,19 @@
+html,
+body {
+
+	min-width: 1200px;
+	margin: 0;
+	padding: 0;
+	 background: #ffffff url("../img/barbershop-shop.jpg") no-repeat 50% 0px;
+	background-size: 1200px auto;
+	font-family: "PT Sans Narrow" ,"Arial";
+	font-size: 14px;
+	line-height:24px;
+	color: #000000;
+	font-weight: bold;
+	text-transform:uppercase ;
+	
+
+}
+
+
